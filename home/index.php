@@ -1,13 +1,13 @@
 <?php 
 session_start();
 
-/* if (empty($_SESSION['id']) || !isset($_SESSION['id'])) {
+if (!empty($_SESSION['id']) || !isset($_SESSION['id'])) {
     header('location:http://');
 }
 
-if (empty($_SESSION['name']) || !isset($_SESSION['name'])) {
+if (!empty($_SESSION['name']) || !isset($_SESSION['name'])) {
     header('location:http://');
-} */
+} 
 ?> 
 
 <!DOCTYPE html>
