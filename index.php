@@ -13,12 +13,6 @@
 </head>
 
 <body>
-    <div class="backgr"></div>
-    <div class="backgr"></div>
-    <div class="backgr"></div>
-    <div class="backgr"></div>
-    <div class="backgr"></div>
-
     <section id="main">
         <div class="square" style="--i:0"></div>
         <div class="square" style="--i:1"></div>
