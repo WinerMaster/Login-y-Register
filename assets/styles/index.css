@@ -43,44 +43,11 @@ body {
     align-items    : center;
     justify-content: center;
     overflow: hidden;
+    background: linear-gradient(45deg, #783c66, #e86666);
 }
 
 li {
     list-style: none;
-}
-
-.backgr {
-    width: 650px;
-    height: 650px;
-    z-index: -1;
-    filter: blur(50px);
-    position: absolute;
-}
-
-.backgr:nth-child(1) {
-    top: -200px;
-    left: 0px;
-    background: rgb(202, 78, 198);
-}
-.backgr:nth-child(2) {
-    bottom: -100px;
-    right: -100px;
-    background: rgb(78, 181, 202);
-}
-.backgr:nth-child(3) {
-    top: 0;
-    left: 40%;
-    background: rgb(128, 78, 202);
-}
-.backgr:nth-child(4) {
-    top: -300px;
-    right: -100px;
-    background: rgb(78, 125, 202);
-}
-.backgr:nth-child(5) {
-    bottom: -300px;
-    left: 0px;
-    background: rgb(78, 202, 169);
 }
 
 #main {
