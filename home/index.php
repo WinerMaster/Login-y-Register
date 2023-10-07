@@ -2,11 +2,11 @@
 session_start();
 
 if (!empty($_SESSION['id']) || !isset($_SESSION['id'])) {
-    header('location:http://');
+    header('location:http://localhost');
 }
 
 if (!empty($_SESSION['name']) || !isset($_SESSION['name'])) {
-    header('location:http://');
+    header('location:http://localhost');
 } 
 ?> 
 
